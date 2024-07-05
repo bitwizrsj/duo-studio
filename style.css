@@ -139,18 +139,14 @@ html, body {
 .page2-container{
     height: 60vh;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 0 5vw; */
 }
 .page2-left{
-    /* background-color: blue; */
     width: 40%;
 }
 .page2-right{
-    /* background-color: blue; */
     width: 24%;
 }
 .page2-left h2{
@@ -172,3 +168,33 @@ html, body {
     color: #111;
     margin-top: 20px;
 }
+
+.page3 {
+    height: 100vh;
+}
+
+.page3 h1{
+    font-size:7vw;
+    font-weight: 500;
+    color: #111;
+    padding: 100px 0px 0px 100px;
+}
+
+.page3-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.page3 img{
+    width: 38%;
+    margin-top: 160px;
+}
+
+
+.page3 video{
+    width: 38%;
+    margin-top: 40px;
+}
+
+
